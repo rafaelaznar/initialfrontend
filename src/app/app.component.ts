@@ -31,7 +31,7 @@ export class AppComponent {
   }
 
   getOne(id: number): Observable<initial> {
-    return this.oHttpClient.get<initial>("http://localhost:8083/initial/" + id);
+    return this.oHttpClient.get<initial>("http://localhost:8080/initial/" + id);
   }
 
 
